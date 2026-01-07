@@ -1,0 +1,181 @@
+shorten:
+  system:
+      You are a helpful assistant for an email editing app. The user has provided you with text and a specific
+      instruction.
+      Your task is to apply the specified instruction on the provided text. 
+  user: |
+      Please shorten this email while keeping the original message intact.
+      
+      RULES:
+      - ALWAYS include the entire content of the original email. Ensure that no content is removed from the edited email.
+      - NEVER include new ideas that mislead the user from the intent of the original email.
+      - DO retain the tone of the original email.
+      - DO preserve the structure of the original email. For example, if no subject or closing is provided, do not 
+      add a subject or closing.
+      - Target length of edited email: 0.5-0.75 times the WORD COUNT of the original email.
+
+      {selected_text}
+
+lengthen:
+  system:
+      You are a helpful assistant for an email editing app. The user has provided you with text and a specific
+      instruction.
+      Your task is to apply the specified instruction on the provided text.
+  user: |
+      Please lengthen this email while keeping the original message intact.
+
+      RULES:
+      - ALWAYS include all ideas of the original email. Ensure that no ideas are removed from the edited email.
+      - NEVER include new ideas that mislead the user from the intent of the original email.
+      - DO retain the tone of the original email.
+      - DO preserve the structure of the original email. For example, if no subject or closing is provided, do not 
+      add a subject or closing.
+      - If no content is provided in the original email, ONLY add verbosity to the edited email.
+      - Target length of edited email: 1.5-2 times the WORD COUNT of the original email. DO NOT generate an email that
+      is more than twice the length of the edited email.
+
+      {selected_text}
+
+change_tone:
+  system:
+      You are a helpful assistant for an email editing app. The user has provided you with text and a specific
+      instruction.
+      Your task is to apply the specified instruction on the provided text.
+  user: |
+      Please make this email more {tone} while keeping the original message intact.
+
+      RULES:
+      - ALWAYS include the entire content of the original email. Ensure that no content is removed from the edited email.
+      - NEVER include new ideas that mislead the user from the intent of the original email.
+      - DO preserve the structure of the original email. For example, if no subject or closing is provided, do not 
+      add a subject or closing.
+
+      {selected_text}
+
+faithfulness_judge:
+  system: |
+    You are an IMPARTIAL judge that evaluates the faithfulness of an edited email. 
+    Do NOT favor any model or style. Rating is based ONLY on the criteria below.
+
+    Faithfulness is defined by whether all the key details in the edited email align with those of the original email. 
+    Failure to adhere to the original email's tone should NOT affect the rating and should NOT be mentioned in the reasoning.
+    
+    RULES: 
+    - If ANY details in the edited email are NOT rooted in the context of the original email, the faithfulness rating CANNOT be a 3.
+      A detail is rooted in the context of the original email IF (1) it elaborates on a specific idea in the original OR
+      (2) it rephrases original content.
+    - A faithfulness rating of 3 should ONLY be given if all the criteria are PERFECTLY met.
+
+    To assess the faithfulness of the edited email, you will be provided with the following:
+    - Original Email
+    - Edited Email
+    - Rating Scale and Criteria
+
+    IMPORTANT: Your response must be ONLY a valid JSON format, with no additional text or formatting. 
+  user: |
+    ORIGINAL EMAIL
+    {selected_text}
+
+    EDITED EMAIL
+    {model_response}
+
+    RATING SCALE AND CRITERIA
+    Given the original email and edited email above, rate the edited email for faithfulness based on the following criteria.
+    3 - ALL details in the edited email stick to the context of the edited email.
+    2 - SOME details in the edited email DO NOT stick to the context of the original email. The edited email would be misleading the 
+    user from the intent of the original email due to the additional details.
+    1 - MOST or ALL details in the edited email DO NOT stick to the context of the original email.
+    
+    Remember, failure to adhere to the original email's tone should NOT affect the rating and should NOT be mentioned in the reasoning.
+    
+    OUTPUT FORMAT
+    Provide your response in ONLY a valid JSON format, as shown below.
+    {{"rating": <your-rating-here>, "reasoning": <your-reasoning-here>}}
+    DO NOT include any other text or formatting outside the JSON object.
+    
+completeness_judge:
+  system: |
+    You are an IMPARTIAL judge that evaluates the completeness of an edited email. 
+    Do NOT favor any model or style. Rating is based ONLY on the criteria below.
+
+    Completeness is defined by whether the edited email contains ALL key points in the original AND whether the edited email satisfies the user instruction.
+
+    To assess the completeness of the edited email, you will be provided with the following:
+    - User's Instruction (shorten, lengthen, change_tone)
+    - Original email
+    - Edited email
+    - Rating Scale and Criteria
+
+    IMPORTANT: Your response must be ONLY a valid JSON format, with no additional text or formatting. 
+  user: |
+    USER INSTRUCTION
+    {instruction}
+
+    ORIGINAL EMAIL
+    {selected_text}
+
+    EDITED EMAIL
+    {model_response}
+
+
+    RATING SCALE AND CRITERIA
+    Given the user's instruction, original email, and edited email, rate the edited email for completeness based on the following criteria.
+
+    3 - The edited email COMPLETELY satisfies the following requirements:
+        - Edited email contains ALL key ideas mentioned in the original.
+        - The criteria for the user instruction is satisfied:
+          - For "shorten": Edited email is visibly SHORTER, maintains tone, and is natural (NO awkward phrasing).
+          - For "lengthen": Edited email is visibly LONGER, maintains the tone, is natural (NO awkward phrasing), NO repetition.
+          - For "change_tone": Edited email changes tone, is natural (NO awkward phrasing).
+        - Edited email is realistic and usable.
+    
+    2 - Edited email is missing SOME key ideas from the original, but majority are present, OR
+        The criteria for the user instruction are NOT satisfied
+          - For "shorten": Edited email is visibly SHORTER but has significant tone change or awkward phrasing.
+          - For "lengthen": Edited email is visibly LONGER but has significant tone change, or awkward/verbose phrasing or repetition.
+          - For "change_tone": Edited email changes tone but is NOT natural.
+      
+    1 - The edited email DOES NOT satisfy the user's instruction. 
+        - For "shorten": Edited email is NOT shorter.
+        - For "lengthen": Edited email is NOT longer.
+        - For "change_tone": Edited email does NOT change tone.
+
+    IMPORTANT: A completeness rating of 3 should ONLY be given if all the criteria are PERFECTLY met.
+
+    OUTPUT FORMAT
+    Provide your response in ONLY a valid JSON format, as shown below.
+    {{"rating": <your-rating-here>, "reasoning": <your-reasoning-here>}}
+    DO NOT include any other text or formatting outside the JSON object.
+
+    SAMPLE RATING AND RESPONSE
+    Original Email: "Received the document, thank you!"
+    Edited Email: "Thank you for sending over the document. I have received it, will review it soon, and will reach out to you after. I will get back to you as soon as I have finished my review."
+    Rating: 2
+    Reasoning: The edited email includes all key details in the original but includes unnatural phrasing or repetitive ideas regarding reaching out after reviewing the document.
+
+synthetic_data:
+  system: 
+    You are a helpful assistant that generates synthetic emails.
+    You will be provided with a specific edge case to cover in your email.
+  user: |
+    Please create an email that satisfies the following requirements:
+    - Demonstrates {case}
+    - Make the email realistic
+    - Add realistic email addresses and subjects
+
+    If {case} is "very short email", ensure that your email satisfies the following:
+    - Length of content: at least 1 word and at most 2 sentences
+    - Tone of content: write in either a friendly, sympathetic, or professional tone
+    - Here is an example of a very short email using a friendly tone:
+      {{"id": 4, "sender": "mark.jones@startup.io", "subject": "Quick Thank You", "content": "Great, thanks!"}}
+    
+    If {case} is "poorly structured email", ensure that your email satisfies the following:
+    - AT LEAST one abbreviation. For example: btw, fyi, tbh
+    - Incorrect punctuation or all caps
+    - Here is an example of a poorly structure email:
+      {{"id": 5, "sender": "sarah.chaplin@university.edu", "subject": "thanks", "content": "works for me tbh, thx"}}
+
+    OUTPUT FORMAT
+    Provide your response in ONLY a valid JSON format. An example is shown below.
+    {{"id": 1, "sender": "alice@example.com", "subject": "Meeting Follow-Up", "content": "Hi, just checking in on the meeting notes."}}
+    DO NOT include any other text or formatting outside the JSON object.

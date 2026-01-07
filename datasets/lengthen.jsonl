@@ -1,0 +1,100 @@
+{"id": 1, "sender": "alice@example.com", "subject": "Meeting Follow-Up", "content": "Hi, just checking in on the meeting notes."}
+{"id": 2, "sender": "mark.jones@startup.io", "subject": "Project Deadline Concern", "content": "Hey team, we really need those deliverables by Friday or we’ll miss the client handoff. Let’s stay sharp."}
+{"id": 3, "sender": "susan.lee@university.edu", "subject": "Thesis Feedback", "content": "Dear Professor, I’ve attached my revised thesis draft. Could you please share any feedback before next Tuesday?"}
+{"id": 4, "sender": "daniel@personalmail.com", "subject": "Weekend Hike", "content": "Yo! You still up for that hike Saturday morning? Weather looks good!"}
+{"id": 5, "sender": "hr@finwellcorp.com", "subject": "Offer Letter Update", "content": "Congratulations on your offer! Attached is your official offer letter and onboarding details."}
+{"id": 6, "sender": "carol@creativeagency.org", "subject": "Design Revisions", "content": "Hi team, please review the attached mockups and add comments by end of day tomorrow."}
+{"id": 7, "sender": "mike89@gmail.com", "subject": "Rant About Deadlines", "content": "I’m honestly so done with these shifting deadlines. How are we supposed to plan anything properly?"}
+{"id": 8, "sender": "tina@bookclub.com", "subject": "Book of the Month", "content": "Hey readers! This month we’re diving into 'The Night Circus.' Meeting is next Thursday evening!"}
+{"id": 9, "sender": "andre@techsolutions.ai", "subject": "Client Demo Prep", "content": "Morning all, let’s finalize the demo scripts by noon. I’ll run through the slide deck after lunch."}
+{"id": 10, "sender": "nina@wellnesscenter.org", "subject": "Appointment Reminder", "content": "Hi, this is a reminder for your appointment with Dr. Patel on Wednesday at 10:30 AM."}
+{"id": 11, "sender": "jessica@friendsmail.com", "subject": "Rough Day", "content": "Ugh, today was such a mess. Traffic, deadlines, and my coffee spilled twice. I just need a nap."}
+{"id": 12, "sender": "info@nonprofitaction.org", "subject": "Thank You for Donating!", "content": "We’re so grateful for your support. Your contribution helps us provide food and shelter to families in need."}
+{"id": 13, "sender": "peter@company.com", "subject": "Budget Review", "content": "Team, please review the Q3 financial summary and identify areas where we can cut costs."}
+{"id": 14, "sender": "emily@artschool.edu", "subject": "Portfolio Critique", "content": "Hi! Could you take a look at my updated digital portfolio? I’m hoping to apply for the spring showcase."}
+{"id": 15, "sender": "support@travelbuddy.com", "subject": "Flight Cancellation Notice", "content": "Your flight TB473 to Paris has been canceled due to weather. Please visit our site to rebook or request a refund."}
+{"id": 16, "sender": "lucas@devmail.net", "subject": "Code Review", "content": "Hey, I pushed the latest branch. Can you check for bugs in the data parser module?"}
+{"id": 17, "sender": "aisha@greengrow.co", "subject": "Marketing Campaign Results", "content": "Hi team, the campaign exceeded expectations! Engagement rose 25% and conversions 12%. Great work!"}
+{"id": 18, "sender": "dad@example.com", "subject": "Proud of You", "content": "Hey kiddo, just wanted to say I’m proud of how hard you’re working lately. Keep it up."}
+{"id": 19, "sender": "rose@fashionhub.com", "subject": "Partnership Proposal", "content": "Hello, we’re interested in collaborating on a social media campaign for our new collection. Let’s discuss details soon."}
+{"id": 20, "sender": "ben@languagelab.ai", "subject": "Research Update", "content": "Hi, I’ve uploaded the latest experiment logs. The model shows promising accuracy improvements."}
+{"id": 21, "sender": "grace@bakeshop.net", "subject": "Catering Request", "content": "Hello, I’d like to order cupcakes and pastries for a 30-person event on November 10th."}
+{"id": 22, "sender": "samuel@corporate.com", "subject": "Performance Review Scheduling", "content": "Hi Alex, let’s schedule your annual performance review next week. Please send me your availability."}
+{"id": 23, "sender": "rachel@neighbors.org", "subject": "Lost Dog Alert", "content": "Hi all, a golden retriever was found near Maple Street Park. Contact us if you think it’s yours."}
+{"id": 24, "sender": "dev@openaiapps.dev", "subject": "API Key Usage", "content": "Reminder: You’ve reached 80% of your monthly API limit. Upgrade or reduce usage to avoid service disruption."}
+{"id": 25, "sender": "alex@musiclovers.fm", "subject": "Concert Plans", "content": "Hey! Got tickets to the indie festival next month — want to come?"}
+{"id": 26, "sender": "chris@consultancy.biz", "subject": "Proposal Feedback", "content": "Dear team, after reviewing the proposal, I recommend expanding the section on competitive differentiation."}
+{"id": 27, "sender": "support@shopifyplus.com", "subject": "Subscription Renewal", "content": "Your annual plan renews on November 15. No action needed unless you wish to cancel or modify your plan."}
+{"id": 28, "sender": "sofia@personalmail.com", "subject": "Catching Up", "content": "It’s been forever since we last talked! How have you been? Let’s grab lunch soon."}
+{"id": 29, "sender": "leo@technewsdaily.com", "subject": "Interview Request", "content": "Hi, we’d love to feature you in our upcoming article about AI startups. Would you be open to a short interview?"}
+{"id": 30, "sender": "ryan@freelancer.org", "subject": "Invoice for October", "content": "Please find attached the invoice for October deliverables. Payment due within 14 days."}
+{"id": 31, "sender": "no-reply@cityalerts.gov", "subject": "Severe Weather Warning", "content": "Alert: Heavy rain and flooding expected in your area tonight. Stay indoors if possible."}
+{"id": 32, "sender": "olivia@wellnesshub.com", "subject": "Mindfulness Session Recap", "content": "Hi everyone, thank you for joining today’s mindfulness session. Attached are the guided exercises and reflection notes."}
+{"id": 33, "sender": "derek@teamx.io", "subject": "Frustration with Communication", "content": "Honestly, it’s getting hard to keep track when everyone uses different tools. Can we please consolidate channels?"}
+{"id": 34, "sender": "mom@example.com", "subject": "Dinner Plans", "content": "Hi sweetie, are you coming for dinner Sunday night? I’m making your favorite lasagna."}
+{"id": 35, "sender": "zoe@startuphub.org", "subject": "Pitch Deck Review", "content": "Hey, could you take a quick look at my pitch deck? Need some honest feedback before demo day."}
+{"id": 36, "sender": "library@city.edu", "subject": "Overdue Notice", "content": "Your borrowed book 'Modern Linguistics' is overdue. Please return it or renew within 3 days."}
+{"id": 37, "sender": "felix@remoteworkers.co", "subject": "Team Check-In", "content": "Good morning team, just wanted to do a quick async check-in. How’s everyone progressing this week?"}
+{"id": 38, "sender": "hannah@wellbeing.org", "subject": "Burnout Awareness Workshop", "content": "Join our free webinar next Tuesday to learn about managing stress and building resilience at work."}
+{"id": 39, "sender": "claire@company.com", "subject": "Urgent: Client Escalation", "content": "We received an escalation from the client about missing documentation. Please resolve by end of day."}
+{"id": 40, "sender": "ian@outdoorclub.net", "subject": "Trip Recap", "content": "That weekend trip was amazing! I still can’t believe we hiked 20 miles in two days. Photos attached!"}
+{"id": 41, "sender": "dana@brandco.com", "subject": "Product Launch Prep", "content": "Hi all, let’s finalize the marketing copy and visuals today so we can go live tomorrow morning."}
+{"id": 42, "sender": "victor@financecorp.com", "subject": "Expense Report Missing", "content": "Please submit your October expense report by Friday or your reimbursement will be delayed."}
+{"id": 43, "sender": "kate@communitycenter.org", "subject": "Volunteer Appreciation", "content": "Thank you all for your time and effort this month. You truly make a difference in our community!"}
+{"id": 44, "sender": "noah@fitnesslab.co", "subject": "Workout Summary", "content": "Your weekly stats are in: 4 workouts, 1,800 calories burned, and consistent improvement in endurance!"}
+{"id": 45, "sender": "customer@reviewhub.com", "subject": "Complaint About Service", "content": "I’m disappointed with how my support ticket was handled. It’s been a week and no one has responded."}
+{"id": 46, "sender": "ella@studioart.net", "subject": "Gallery Invitation", "content": "We’re thrilled to invite you to our winter gallery opening on December 5. RSVP by November 20."}
+{"id": 47, "sender": "leo@friendsmail.com", "subject": "Just Checking In", "content": "Hey man, haven’t heard from you in a while. Everything okay?"}
+{"id": 48, "sender": "recruiting@techhire.ai", "subject": "Interview Schedule Confirmation", "content": "Your interview for the ML Engineer position is confirmed for Thursday, November 7 at 2:00 PM PST."}
+{"id": 49, "sender": "maria@culinaryclub.org", "subject": "Recipe Swap", "content": "Hey everyone! Share your favorite comfort food recipes this week — I’ll post mine tomorrow!"}
+{"id": 50, "sender": "ethan@projectx.com", "subject": "End of Quarter Wrap-Up", "content": "We’ve officially wrapped up Q4! Please send your retrospectives and lessons learned by Monday."}
+{"id": 51, "sender": "emma.lee@designhub.com", "subject": "Lunch Plans?", "content": "Sure, sounds good!", "edge_case": "very short email"}
+{"id": 52, "sender": "daniel.nguyen@corporate.com", "subject": "Schedule Update", "content": "Noted, thank you.", "edge_case": "very short email"}
+{"id": 53, "sender": "emma.lee@techcorp.com", "subject": "Schedule Update", "content": "Noted, thank you!", "edge_case": "very short email"}
+{"id": 54, "sender": "lucas.patel@techhub.com", "subject": "Status Update", "content": "All good, thanks for checking!", "edge_case": "very short email"}
+{"id": 55, "sender": "david.lee@techfirm.com", "subject": "Quick Question", "content": "Can you send the file?", "edge_case": "very short email"}
+{"id": 56, "sender": "jason.wells@company.org", "subject": "Schedule Confirmed", "content": "Confirmed, see you tomorrow.", "edge_case": "very short email"}
+{"id": 57, "sender": "james.lee@consulting.co", "subject": "Schedule Confirmation", "content": "Confirmed, see you tomorrow.", "edge_case": "very short email"}
+{"id": 58, "sender": "james.taylor@corp.com", "subject": "Project Update", "content": "Received your files, will review soon.", "edge_case": "very short email"}
+{"id": 59, "sender": "daniel.smith@corporate.com", "subject": "Document Received", "content": "Got it, thanks for sending.", "edge_case": "very short email"}
+{"id": 60, "sender": "emily.wang@techfirm.com", "subject": "Quick update", "content": "Received your doc, looks good.", "edge_case": "very short email"}
+{"id": 61, "sender": "chris.taylor@company.com", "subject": "Document Received", "content": "Received, thanks!", "edge_case": "very short email"}
+{"id": 62, "sender": "david.chen@consulting.biz", "subject": "Follow Up", "content": "Let me know if you have questions.", "edge_case": "very short email"}
+{"id": 63, "sender": "john.dale@company.com", "subject": "Deadline Update", "content": "All set, thanks for the update.", "edge_case": "very short email"}
+{"id": 64, "sender": "linda.meyer@designcorp.com", "subject": "Docs Received", "content": "Thanks for sending!", "edge_case": "very short email"}
+{"id": 65, "sender": "james.wilson@company.com", "subject": "Invoice Received", "content": "Received, thank you.", "edge_case": "very short email"}
+{"id": 66, "sender": "jen.lewis@designco.com", "subject": "Lunch?", "content": "Are you free for lunch today?", "edge_case": "very short email"}
+{"id": 67, "sender": "julia.han@creativehub.com", "subject": "Schedule Confirmed", "content": "Looking forward to it!", "edge_case": "very short email"}
+{"id": 68, "sender": "lisa.huang@designsuite.com", "subject": "Update on files", "content": "Files received, thank you!", "edge_case": "very short email"}
+{"id": 69, "sender": "laura.peterson@medicenter.org", "subject": "Schedule Confirmation", "content": "The time works, thank you!", "edge_case": "very short email"}
+{"id": 70, "sender": "matt.lee@consultants.com", "subject": "Budget Update", "content": "Received, will review.", "edge_case": "very short email"}
+{"id": 71, "sender": "joseph.chan@medicorp.com", "subject": "Report Received", "content": "Received, thank you.", "edge_case": "very short email"}
+{"id": 72, "sender": "chris.wilson@corpmail.com", "subject": "Need quick update", "content": "FYI when u get a sec let me know, thx", "edge_case": "very short email"}
+{"id": 73, "sender": "emma.brown@techspace.com", "subject": "Schedule Change", "content": "Noted, thanks!", "edge_case": "very short email"}
+{"id": 74, "sender": "kevin.lee@productlabs.com", "subject": "Schedule Update", "content": "Let me know your availability.", "edge_case": "very short email"}
+{"id": 75, "sender": "eli.nguyen@consulting.com", "subject": "Lunch plans?", "content": "Sounds good, let me know the time!", "edge_case": "very short email"}
+{"id": 76, "sender": "kevin.morris@techspace.com", "subject": "IMPORTANT URGENT", "content": "pls send docs asap, btw any idea whats going on Thx!!!", "edge_case": "poorly structured email"}
+{"id": 77, "sender": "dan.mills@webmail.com", "subject": "question abt report", "content": "hey FYI I dont get the graphs?? plz explain thx!!", "edge_case": "poorly structured email"}
+{"id": 78, "sender": "brian.smith@company.com", "subject": "issue with order", "content": "HI I DONT GET THE CORRECT PARTS fyi can u fix ASAP??", "edge_case": "poorly structured email"}
+{"id": 79, "sender": "jason.bright@companymail.com", "subject": "RE: docs ASAP", "content": "Hey btw did u send the docs. NEED them soon!! thx", "edge_case": "poorly structured email"}
+{"id": 80, "sender": "john.williams@companycorp.com", "subject": "REPORT NEEDED ASAP", "content": "fyi need the report by EOD pls send thx!!!", "edge_case": "poorly structured email"}
+{"id": 81, "sender": "george.harris@officecorp.com", "subject": "URGENT: READ ASAP", "content": "PLS finish the report btw and send soon ok?? thx!!", "edge_case": "poorly structured email"}
+{"id": 82, "sender": "chris.lopez@techfirm.com", "subject": "re: report due", "content": "u send the file btw? i cant find it, please LMK asap thx!!!", "edge_case": "poorly structured email"}
+{"id": 83, "sender": "mike.jordan@salesforce.net", "subject": "project update", "content": "btw THE REPORT isnt done yet? sorry will try to finish asap...", "edge_case": "poorly structured email"}
+{"id": 84, "sender": "craig.smith@corpnet.com", "subject": "IMPORTANT UPDATE", "content": "fyi i need those docs ASAP thx!! Also, did u check the last file coz i think its wrong?? pls respond", "edge_case": "poorly structured email"}
+{"id": 85, "sender": "danielle.green@corpnet.com", "subject": "update ASAP", "content": "hey team, fyi pls send the files soonest. NEED by today thx!!", "edge_case": "poorly structured email"}
+{"id": 86, "sender": "jason.fitz@companymail.com", "subject": "Project update", "content": "btw I sent the doc last week, let me know ASAP. thx!!!", "edge_case": "poorly structured email"}
+{"id": 87, "sender": "john.doe@company.com", "subject": "RE: URGENT STUFF", "content": "FYI i didnt see ur email yesterday!!! Can u pls resend asap thx", "edge_case": "poorly structured email"}
+{"id": 88, "sender": "brian.miller@companymail.com", "subject": "IMPORTANT!!! need answer ASAP", "content": "pls send those files btw i don't have them yet, URGENT!!", "edge_case": "poorly structured email"}
+{"id": 89, "sender": "kevin.b@officepro.com", "subject": "budget update", "content": "HI TEAM FYI THE docs arent ready yet btw let me know what u think asap!!!", "edge_case": "poorly structured email"}
+{"id": 90, "sender": "dave.riley@bostonmail.com", "subject": "project update FYI", "content": "HEY I sent the docs btw but didnt get reply yet LMK??", "edge_case": "poorly structured email"}
+{"id": 91, "sender": "jake.london@bizgroup.com", "subject": "QUICK UPDATE", "content": "FYI the reports AREN'T done yet lol, will send asap?!", "edge_case": "poorly structured email"}
+{"id": 92, "sender": "lucas.brown@companymail.com", "subject": "RE: Project Deadline", "content": "Pls see attached ASAP!!! FYI didn't have all files, lmk if ok thx", "edge_case": "poorly structured email"}
+{"id": 93, "sender": "brian.lee@companymail.com", "subject": "Questions abt report", "content": "hi can u send it soon? FYI i need asap thx!!", "edge_case": "poorly structured email"}
+{"id": 94, "sender": "david.carter@companymail.com", "subject": "Project update", "content": "FYI the files r coming tomorrow.", "edge_case": "poorly structured email"}
+{"id": 95, "sender": "james.wu@companymail.com", "subject": "URGENT updates", "content": "Hey btw i need those docs ASAP!! can u send them, thx :)", "edge_case": "poorly structured email"}
+{"id": 96, "sender": "joe.mason@bizmail.com", "subject": "Re: TODAY UPDATE", "content": "Hey FYI WE NEED THAT DOC ASAP!!! thx", "edge_case": "poorly structured email"}
+{"id": 97, "sender": "bobby.smith@corp.net", "subject": "about the reports", "content": "u ok with the ppt right? LMK asap, thx!!", "edge_case": "poorly structured email"}
+{"id": 98, "sender": "matt.carter@company.biz", "subject": "UPDATE ASAP", "content": "hey did u see my msg? pls let me know asap btw i need reply!! thx.", "edge_case": "poorly structured email"}
+{"id": 99, "sender": "daniel.lee@techfirm.com", "subject": "project update", "content": "Hey FYI the doc is missing info. When u gonna fix?? thx", "edge_case": "poorly structured email"}
+{"id": 100, "sender": "john.doe@techsolutions.com", "subject": "re: THE REPORT FYI", "content": "HEY did you see the report, its late btw let me know!!!", "edge_case": "poorly structured email"}
