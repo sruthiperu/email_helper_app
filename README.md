@@ -25,13 +25,14 @@ git clone https://github.com/sruthiperu/email_helper_app.git
 pip install requirements.txt
 ```
 
-## Execution
+## Run the app
 
-### Run the app
+### To start the app on Streamlit, run
 
 ```
 streamlit run app.py
 ```
+It will open a local host on your browser.
 
 ## Contributions
 Contributions are always welcome!
@@ -42,7 +43,7 @@ Contributions are always welcome!
   4. Push to the Branch (git push origin feature/AmazingFeature)
   5. Open a Pull Request
 
-### If you would like to make your own changes to the project
+### If you would like to make your own changes
 Change the git url to avoid accidental pushes to main project
 ```
 git remote set-url origin github_username/repo_name
