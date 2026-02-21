@@ -43,10 +43,4 @@ Contributions are always welcome!
   4. Push to the Branch (git push origin feature/AmazingFeature)
   5. Open a Pull Request
 
-### If you would like to make your own changes
-Change the git url to avoid accidental pushes to main project
-```
-git remote set-url origin github_username/repo_name
-```
-
 ## Thanks for stopping by!
