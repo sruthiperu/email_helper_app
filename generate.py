@@ -20,7 +20,6 @@ class GenerateEmail():
         self.judge_model = "gpt-4.1"
 
     def _call_api(self, messages, is_judge=False):
-        # TODO: implement this function to call ChatCompletions
         selected_model = "gpt-4.1" if is_judge else self.deployment_name
         response = self.client.chat.completions.create(
             model=selected_model,
@@ -44,8 +43,6 @@ class GenerateEmail():
         return self._call_api(messages)
     
     def generate(self, action: str, text: str = None, **kwargs) -> str:
-        # TODO: implement your backend logic with this method. Skeleton code is provided below.
-
         if not text:
             text = "Hello World!"
 
