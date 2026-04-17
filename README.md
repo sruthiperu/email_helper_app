@@ -14,15 +14,22 @@ Select a model (GPT-4o mini or GPT-4.1) to shorten, lengthen, or change the tone
 
 ### Installation
 
-1. Get free API keys for GPT-4o mini and GPT-4.1, or use your own.
-2. Clone the repository
+1. Clone the repository
 ```
 git clone https://github.com/sruthiperu/email_helper_app.git
 ```
-3. Save your API keys in a .env file. Ensure this file is added to the .gitignore file.
-4. Install dependencies
+2. Navigate to the project directory
 ```
-pip install requirements.txt
+cd email_helper_app
+```
+3. Create a virtual environment
+```
+python -m venv venv
+``` 
+4. Activate the virtual environment and install dependencies
+```
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ## Run the app
