@@ -28,7 +28,7 @@ python -m venv venv
 ``` 
 4. Activate the virtual environment and install dependencies
 ```
-source venv/bin/activate
+source venv/bin/activate          # On Windows: .venv\Scripts\activate.ps1
 pip install -r requirements.txt
 ```
 
